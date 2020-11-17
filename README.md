@@ -5,7 +5,7 @@ Changed to use 'qs' package instead of 'querystring' native package to handle ne
 Solves issues with parameters used while creating new Tasks, Deals, etc. in Bitrix24
 
 ## Installation
-`npm install b24x --save`
+`npm install bit9 --save`
 
 ## Modes
 There are 2 modes to use this library. API mode and Webhook mode.
@@ -21,7 +21,7 @@ There are 2 method that will called when using API mode. `saveToken(data)` and `
 
 #### Example
 ```JavaScript
-const b24 = require('b24');
+const b24 = require('bit9');
 
 const bitrix24 = new b24.Bitrix24({
     config: {
@@ -56,7 +56,7 @@ To use this you must provide `user_id` and `code` in `config` block.
 
 #### Example
 ```JavaScript
-const b24 = require('b24');
+const b24 = require('bit9');
 
 const bitrix24 = new b24.Bitrix24({
     config: {
@@ -82,7 +82,7 @@ Step:
 Example:
 ```JavaScript
 const express = require('express');
-const b24 = require('b24');
+const b24 = require('bit9');
 
 const app = express()
 
@@ -140,7 +140,7 @@ pass the method you want to run in `method` parameter, `param` parameter is opti
 Example:
 ```JavaScript
 const express = require('express');
-const b24 = require('b24');
+const b24 = require('bit9');
 
 const app = express()
 
