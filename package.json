@@ -1,5 +1,5 @@
 {
-    "name": "b24x",
+    "name": "bitx",
     "version": "0.0.1",
     "description": "Bitrix24 Client Library",
     "main": "dist/index.js",
