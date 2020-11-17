@@ -1,7 +1,11 @@
 # Bitrix24 Client Library
 
+This is a fork of https://www.npmjs.com/package/b24
+Changed to use 'qs' package instead of 'querystring' native package to handle nested objects. 
+Solves issues with parameters used while creating new Tasks, Deals, etc. in Bitrix24
+
 ## Installation
-`npm install b24 --save`
+`npm install b24x --save`
 
 ## Modes
 There are 2 modes to use this library. API mode and Webhook mode.

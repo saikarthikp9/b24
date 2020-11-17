@@ -1,36 +1,37 @@
 {
-  "name": "b24",
-  "version": "1.1.1",
-  "description": "Bitrix24 Client Library",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "prepublish": "npm run build",
-    "build": "tsc",
-    "test": "npm run build && ava ./tests/test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/setyongr/b24.git"
-  },
-  "keywords": [
-    "bitrix24"
-  ],
-  "author": "setyongr",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/setyongr/b24/issues"
-  },
-  "homepage": "https://github.com/setyongr/b24#readme",
-  "devDependencies": {
-    "typescript": "^2.4.2",
-    "ava": "^0.22.0",
-    "nock": "^9.0.14"
-  },
-  "dependencies": {
-    "@types/request-promise": "^4.1.36",
-    "dotenv": "^4.0.0",
-    "request": "^2.81.0",
-    "request-promise": "^4.2.1"
-  }
+    "name": "b24x",
+    "version": "0.0.1",
+    "description": "Bitrix24 Client Library",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "prepublish": "npm run build",
+        "build": "tsc",
+        "test": "npm run build && ava ./tests/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/saikarthikp9/b24.git"
+    },
+    "keywords": [
+        "bitrix24"
+    ],
+    "author": "saikarthikp",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://https://github.com/saikarthikp9/b24/issues"
+    },
+    "homepage": "https://github.com/saikarthikp9/b24#readme",
+    "devDependencies": {
+        "ava": "^0.22.0",
+        "nock": "^9.0.14",
+        "typescript": "^2.4.2"
+    },
+    "dependencies": {
+        "@types/qs": "^6.9.5",
+        "@types/request-promise": "^4.1.36",
+        "dotenv": "^4.0.0",
+        "request": "^2.81.0",
+        "request-promise": "^4.2.1"
+    }
 }
